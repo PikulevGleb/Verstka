@@ -34,7 +34,7 @@
 
     --input-height: 70px;
 
-    --coontainer-width: 1440px;
+    --coontainer-width: 1110px;
     --coontainer-padding-x: 15px;
     --transition-duration: 0.2s;
 }
@@ -56,9 +56,4 @@ body {
 a {
     color: var(--color-dark-gray);
     text-decoration: none;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    font-weight: 400;
-    text-transform: uppercase;
 }
