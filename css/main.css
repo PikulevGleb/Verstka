@@ -1,23 +1,5 @@
 @import url(./reset.css);
+@import url(./normalize.css);
 @import url(./styles.css);
+@import url(./components/header.css);
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    column-gap: 20px;
-}
-
-.header-menu-list {
-    display: flex;
-    column-gap: 60px;
-}
-
-.header-menu-link {
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 400;
-}
