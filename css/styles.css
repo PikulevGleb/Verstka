@@ -26,6 +26,8 @@
     --color-dark-gray: #4C5866;
     --color-light: #FFFFFF;
     --color-light-gray: #85859B;
+    
+    --bg-gray: #C0C0C0;
 
     --border: 1px #7875FE solid;
 
@@ -44,7 +46,6 @@ body {
     font-size: 18px;
     line-height: 1.5;
     color: var(--color-light-gray);
-    background-color: var(--color-light);
 }
 
 .container {
