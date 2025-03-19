@@ -5,8 +5,8 @@
 
 .content__top-items {
     display: grid;
-    grid-template-columns: repeat(3, 31.3%);
-    column-gap: 3%;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 35px;
 }
 
 .content__item {
