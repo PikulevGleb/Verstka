@@ -1,0 +1,93 @@
+.header {
+    padding-top: 28px;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.header__menu {
+    margin-left: auto;
+    margin-right: 60px;
+}
+
+.header__menu-list {
+    display: flex;
+    column-gap: 60px;
+}
+
+.header__menu-link {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header__logo-img {
+    width: 140px;
+    height: 23px;
+}
+
+.header__controls {
+    display: flex;
+    gap: 30px;
+}
+
+.header__book-button.button {
+    width: 24px;
+    height: 24px;
+}
+
+.header__line {
+    background-color: #ddd;
+    height: 1px;
+    margin-top: 30px;
+}
+
+/* -------------------------------------- */
+
+.header__intro {
+    width: 445px;
+}
+
+.header__intro-title {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 100%;
+    color: #4c5866;
+}
+
+.header__intro-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #85859b;
+    margin-bottom: 30px;
+}
+
+.header__intro-button {
+    border: 1px solid #7875fe;
+    padding: 20px 50px;
+    width: 255px;
+    height: 70px;
+    transition: transform .2s ease-in-out;
+}
+
+.header__intro-button:hover {
+    transform: scale(1.1);
+}
+
+.header__intro-button span {
+    color: #7875fe;
+}
+
+.header__main-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.header__main {
+    position: relative;
+    padding: 130px 0;
+}

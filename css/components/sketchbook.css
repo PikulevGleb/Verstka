@@ -1,0 +1,46 @@
+.sketchbook__info {
+    width: 350px;
+}
+
+.sketchbook__info-title {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100%;
+    color: #666;
+}
+
+.sketchbook__info-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    color: #85859b;
+    padding-bottom: 30px;
+}
+
+.sketchbook__info-button {
+    border: 1px solid #7875fe;
+    padding: 20px 50px;
+    width: 255px;
+    height: 70px;
+    transition: transform .2s ease-in-out;
+}
+
+.sketchbook__info-button:hover {
+    transform: scale(1.1);
+}
+
+.sketchbook__info-button span {
+    color: #7875fe;
+}
+
+.sketchbook__main-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.sketchbook__main {
+    position: relative;
+    padding: 130px 0;
+    text-align: left;
+}
